@@ -1,0 +1,85 @@
+html { 
+    overflow: hidden;
+    background: url("../img/caveWall.png") repeat;
+    background-repeat: repeat;
+    background-image: url('../img/caveWall.png');
+    -webkit-animation: backgroundScroll 10s linear infinite;
+    animation: backgroundScroll 10s linear infinite;
+    
+}
+
+audio { 
+   display:none;
+}
+
+
+
+#logo{
+    width: 100%;
+    position: relative;
+    margin: auto;
+    bottom: 0;
+    left: 25%;
+    right: 0;
+    top: 0;
+}
+
+#wrapperlogin{
+    width: 20%;
+    height: 500px;
+    background: url("../img/caveBack.png");
+    background-repeat: repeat;
+    position: relative;
+    top:0%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    border-radius:5px;
+    border-style:solid;
+    border-width:2px;
+    border-color:#fff;
+}
+#formdivlogin {
+    max-width: 250px;
+    max-height: 400px;
+    text-align:center;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+#formdivreg {
+    position: relative;
+    text-align:center;
+    margin: auto;
+    padding-top:20px;
+    padding-left:15px;
+}
+
+/* -------------------------------- 
+
+Animated Background
+
+-------------------------------- */
+#vertical-scroll{
+  width: 34vw;
+  height: 100vh;
+  position: absolute;
+  background-image: url('../img/caveWall.png');
+ -webkit-animation: backgroundScroll 10s linear infinite;
+  animation: backgroundScroll 10s linear infinite;
+}
+ 
+@-webkit-keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: -515px 0;}
+}
+ 
+@keyframes backgroundScroll {
+from {background-position: 0 0;}
+to {background-position: 0 -514px;}
+}
+
